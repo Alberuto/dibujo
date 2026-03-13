@@ -3144,9 +3144,17 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6830046825249264222, guid: 7c75d343ca94a62439bb75bd37d19b3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9998854
+      objectReference: {fileID: 0}
     - target: {fileID: 8987273368191797075, guid: 7c75d343ca94a62439bb75bd37d19b3b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.45605066
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987273368191797075, guid: 7c75d343ca94a62439bb75bd37d19b3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 134.642
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3243,7 +3251,7 @@ Animator:
   m_GameObject: {fileID: 1804119907}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38a97b4fc0993ad46af2fc3763f51af5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
